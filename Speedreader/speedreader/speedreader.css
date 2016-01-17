@@ -1,0 +1,87 @@
+/*
+Minhhue H. Khuu
+May 20, 2015
+SpeedReader style file.
+
+The speedreader.css file contains the styling for the speedreader.html file.
+*/
+body {
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+}
+
+button {
+	width: 70px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+button:disabled {
+	background-color: lightgray;
+}
+
+fieldset {
+	border: none;
+	display: inline;
+	vertical-align: top;
+}
+h1, fieldset, #control , #form {
+	text-align: center;
+}
+
+h1 , #form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+legend {
+	border-bottom: 1px solid;
+	font-weight: bold;
+	padding: 2px;
+	text-align: left;
+	width: 100%;
+}
+
+textarea {
+	border: 1px solid gray;
+	background-color: #FFFFFF;
+}
+
+#big {
+	font-size: 48pt;
+}
+
+#bigger {
+	font-size: 60pt;
+}
+
+#medium {
+	font-size: 36pt;
+}
+
+#speedreader {
+	background-color: #FFFFFF;
+	border: 2px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 80%;
+}
+
+#speedreader, legend {
+	border-color: #8EBEBE
+}
+
+#w3c {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+#w3c img {
+	width: 70px;
+}
