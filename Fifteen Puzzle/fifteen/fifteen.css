@@ -6,38 +6,38 @@ Fifteen style file.
 The fifteen.css file contains the styling for fifteen.html.
 */
 body {
-	font-family: Tahoma, Serif;
-	font-size: 12pt;
+  font-family: Tahoma, Serif;
+  font-size: 12pt;
 }
 
 h1, p, #puzzlearea, #shufflebutton, #w3c {
-	text-align: center;
+  text-align: center;
 }
 
 #puzzlearea {
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-	position: relative;
-	width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
 }
 
 .movable:hover {
-	border-color: red;
-	color: red;
-	cursor: pointer;
+  border-color: red;
+  color: red;
+  cursor: pointer;
 }
 
 .unmovable:hover{
-	cursor: default;
+  cursor: default;
 }
 
 .puzzlepiece {
-	background-image: url(background.jpg);
-	border: 5px solid black;
-	font-size: 40pt;
-	height: 90px;
-	position: absolute;
-	width: 90px;
+  background-image: url(background.jpg);
+  border: 5px solid black;
+  font-size: 40pt;
+  height: 90px;
+  position: absolute;
+  width: 90px;
 }
